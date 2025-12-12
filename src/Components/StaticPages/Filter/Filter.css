@@ -1,3 +1,10 @@
-.header{
-    display: flex;
+.header {
+  display: flex;
+  width: 15%;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+#clear-btn{
+height: 25px;
 }
