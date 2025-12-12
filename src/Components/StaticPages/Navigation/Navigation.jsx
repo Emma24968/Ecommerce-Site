@@ -5,8 +5,9 @@ import './Navigation.css'
 export const Navigation = () => {
   return (
     <div className="Nav-section">
-      <SideBar />
-      <SearchBar />
+      <SideBar className='sidebar-section'/>
+      <SearchBar className='searchbar-section'/>
+      
     </div>
   );
 };

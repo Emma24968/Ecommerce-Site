@@ -1,4 +1,9 @@
-.Nav-section{
+.Nav-section {
   display: flex;
-  
+}
+.sidebar-section {
+  width: 5%;
+}
+.searchbar-section {
+  width: 100%;
 }

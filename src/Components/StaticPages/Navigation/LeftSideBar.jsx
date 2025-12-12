@@ -1,8 +1,8 @@
 import { Codesandbox, TrendingUp, MessageSquare, Users, Settings, Info, LogOut } from "lucide-react";
 
-export const SideBar = () => {
+export const SideBar = (props) => {
   return (
-    <div>
+    <div {...props}>
       <h1>Logo</h1>
       <p>
         <Codesandbox />
