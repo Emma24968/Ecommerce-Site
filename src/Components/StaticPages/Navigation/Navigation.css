@@ -3,7 +3,13 @@
 }
 .sidebar-section {
   width: 5%;
+  width: 10%;
+    justify-items: center;
 }
 .searchbar-section {
   width: 100%;
+  display: flex;
+}
+.search-box{
+  width: 70%;
 }

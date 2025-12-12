@@ -2,6 +2,8 @@ import { Codesandbox, TrendingUp, MessageSquare, Users, Settings, Info, LogOut }
 
 export const SideBar = (props) => {
   return (
+            // I added a classname using the spread method
+
     <div {...props}>
       <h1>Logo</h1>
       <p>
