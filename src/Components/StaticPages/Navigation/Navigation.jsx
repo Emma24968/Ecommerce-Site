@@ -1,5 +1,5 @@
 import { SideBar } from "./LeftSideBar";
-import { SearchBar } from "./SearchBar";
+import { SearchBar } from "../../Header/SearchBar";
 import './Navigation.css'
 
 export const Navigation = () => {
