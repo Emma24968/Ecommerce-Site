@@ -9,7 +9,6 @@ export const Filter = () => {
   return (
     <div>
       <Header />
-      <hr />
       <Category />
       <hr />
 

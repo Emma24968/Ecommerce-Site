@@ -8,3 +8,12 @@
 #clear-btn{
 height: 25px;
 }
+
+hr {
+  border: none;        
+  height: 0.5px;        
+  background-color: #ccc;
+  margin: 20px 0; 
+  width: 15rem;     
+}
+
