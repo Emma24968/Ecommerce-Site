@@ -1,6 +1,7 @@
 import { Category } from './Category'
 import './Filter.css'
 import { Header } from "./Header"
+import Range from './Range'
 import { Size } from './Size'
 
 export const Filter = ()=>{
@@ -9,6 +10,7 @@ export const Filter = ()=>{
           <Header /> 
           <Category /> 
           <Size />
+          <Range />
         </div>
     )
 }
