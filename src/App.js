@@ -3,6 +3,7 @@ import "./App.css";
 import { Navigation } from "./Components/StaticPages/Navigation/Navigation";
 import { Filter } from "./Components/StaticPages/Filter/Filter";
 import { SearchBar } from "./Components/Header/SearchBar";
+import { Product } from "./Components/Main/Product";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 <Navigation />
 
 <Filter />
+<Product />
 </div>
     </div>
   );
