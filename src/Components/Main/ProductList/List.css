@@ -1,0 +1,14 @@
+.description{
+    display: flex;
+    align-items: end;
+    width: 14rem;
+}
+
+.btn{
+    background: blue;
+    height: 2rem;
+    border: none;
+    font-size: 30px;
+    color: silver;
+    margin-bottom: 20px;
+}
