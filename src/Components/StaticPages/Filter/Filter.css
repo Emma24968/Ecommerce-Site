@@ -1,19 +1,18 @@
 .header {
   display: flex;
   width: 15%;
-  height: 100vh;
   justify-content: space-between;
+  align-items: center;
 }
 
-#clear-btn{
-height: 25px;
+#clear-btn {
+  height: 25px;
 }
 
 hr {
-  border: none;        
-  height: 0.5px;        
+  border: none;
+  height: 0.5px;
   background-color: #ccc;
-  margin: 20px 0; 
-  width: 15rem;     
+  margin: 20px 0;
+  width: 15rem;
 }
-

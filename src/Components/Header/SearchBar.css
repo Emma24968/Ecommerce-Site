@@ -1,0 +1,30 @@
+.searchbar-section {
+  width: 100%;
+  display: flex;
+}
+.search-box {
+  width: 100%;
+  padding-top: 15px;
+}
+.search-container{
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  height: 30px;
+}
+input {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  width: 93%;
+  background: none;
+}
+#line{
+  padding-right: 20px;
+  font-size: 20px;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}

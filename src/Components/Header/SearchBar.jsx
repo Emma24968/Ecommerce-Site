@@ -1,9 +1,10 @@
 import { Bell, CircleUserRound, MessageSquare, Search } from "lucide-react";
-
+import './SearchBar.css'
 export const SearchBar = (props) => {
   return (
     // I added a classname using the spread method
-    <div {...props}>
+    <div className="searchbar-section"{...props}>
+      <h1>Logo</h1>
       <div className="search-box">
         <div className="search-container">
           <input type="text" placeholder="search something" />

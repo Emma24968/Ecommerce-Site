@@ -5,7 +5,6 @@ export const SideBar = (props) => {
             // I added a classname using the spread method
 
     <div {...props}>
-      <h1>Logo</h1>
       <p>
         <Codesandbox />
       </p>
