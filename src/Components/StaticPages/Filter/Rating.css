@@ -1,0 +1,9 @@
+.rating {
+  display: flex;
+}
+.rating-item {
+  padding-right: 20px;
+}
+.gold-star{
+    color: gold;
+}
