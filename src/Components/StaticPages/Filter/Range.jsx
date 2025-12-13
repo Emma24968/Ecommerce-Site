@@ -10,6 +10,7 @@ export const PriceRange = () => {
       <div>
         <span>${price[0]}</span>
         <span>${price[1]}</span>
+        <RangeSlider />
       </div>
     </div>
   );
