@@ -9,27 +9,27 @@ export const Rating = () => {
         <div className="rating">
           <div className="rating-item">
             {" "}
-            <CircleCheckBig /> <span>5</span>
-            <Star />
+            <CircleCheckBig size={20}/> <span>5</span>
+            <Star size={20}/>
           </div>
           <div className="rating-item">
             {" "}
-            <Circle /> <span>4</span>
-            <Star />
+            <Circle size={20}/> <span>4</span>
+            <Star size={20}/>
           </div>
           <div className="rating-item">
-            <Circle /> <span>3</span>
-            <Star />
+            <Circle size={20}/> <span>3</span>
+            <Star size={20}/>
           </div>
         </div>
         <div className="rating">
           <div className="rating-item">
-            <Circle /> <span>2</span>
-            <Star />
+            <Circle size={20}/> <span>2</span>
+            <Star size={20}/>
           </div>
           <div className="rating-item">
-            <Circle /> <span>1</span>
-            <Star className="gold-star"/>
+            <Circle size={20}/> <span>1</span>
+            <Star className="gold-star" size={20}/>
           </div>
         </div>
       </div>

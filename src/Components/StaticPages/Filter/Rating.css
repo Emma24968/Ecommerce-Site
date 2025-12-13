@@ -1,6 +1,8 @@
 .rating {
   display: flex;
-}
+font-size: larger;
+margin-top:10px ;}
+
 .rating-item {
   padding-right: 20px;
 }

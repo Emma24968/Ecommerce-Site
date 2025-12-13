@@ -8,16 +8,16 @@ export const Size = () => {
       <h3>Size</h3>
       <div className="size-container">
         <div className="size">
-          <Circle />
+          <Circle size={20}/>
           <span className="size-item">XS</span>
-          <Circle />
+          <Circle size={20}/>
           <span className="size-item">S</span>
-          <Circle />
+          <Circle size={20}/>
           <span className="size-item">M</span>
         </div>
         <div className="size">
-          <CircleCheckBig /> <span className="size-item size-item1">L</span>
-          <Circle />
+          <CircleCheckBig size={20}/> <span className="size-item size-item1">L</span>
+          <Circle size={20}/>
           <span className="size-item ">XL</span>
         </div>
       </div>
