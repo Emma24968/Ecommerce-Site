@@ -7,7 +7,7 @@ export const Product = ()=>{
         <div className="product-cont">
             <Title />
             <div className="product-column">
-                <List className={'list-card'}/>
+                <List />
                 {/* <List />
                 <List />
                 <List /> */}
