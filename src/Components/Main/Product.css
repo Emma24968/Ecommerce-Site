@@ -2,9 +2,18 @@
   display: flex;
   justify-content: space-between;
 }
+.product-cont{
+      width: 80%;
+    margin-left: 50px;
+}
+
+/* .list-card{
+  margin: 10px;
+  padding-top: 10px;
+} */
 
 .main {
-  flex: 1; /* take remaining width */
+  flex: 1;
   padding: 20px;
   height: 100vh;
   overflow-y: auto;

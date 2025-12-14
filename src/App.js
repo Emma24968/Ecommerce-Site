@@ -15,7 +15,7 @@ function App() {
         </aside>
         <div className="main">
           <Filter />
-          <Product />
+          <Product  />
         </div>
       </div>
     </div>

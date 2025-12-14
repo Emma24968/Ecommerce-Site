@@ -4,23 +4,15 @@ import List  from "./ProductList/List"
 
 export const Product = ()=>{
     return(
-        <div>
+        <div className="product-cont">
             <Title />
             <div className="product-column">
+                <List className={'list-card'}/>
+                {/* <List />
                 <List />
-                <List />
-                <List />
+                <List /> */}
             </div>
-            <div className="product-column">
-                <List />
-                <List />
-                <List />
-            </div>
-            <div className="product-column">
-                <List />
-                <List />
-                <List />
-            </div>
+            
         </div>
     )
 }
