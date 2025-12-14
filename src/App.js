@@ -9,12 +9,15 @@ function App() {
   return (
     <div>
       <SearchBar />
-<div>
-<Navigation />
-
-<Filter />
-<Product />
-</div>
+      <div className="main-cont">
+        <aside className="sidebar">
+          <Navigation />
+        </aside>
+        <div className="main">
+          <Filter />
+          <Product />
+        </div>
+      </div>
     </div>
   );
 }

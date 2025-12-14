@@ -1,4 +1,14 @@
-.title{
-    display: flex;
-    justify-content: space-between;
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  flex: 1; /* take remaining width */
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+.product-column {
+  display: flex;
 }
