@@ -1,11 +1,9 @@
-/* Wrapper (optional if you want spacing between cards) */
 .list-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  /* flex-wrap: wrap; */
+  gap: 10px;
 }
 
-/* Product card */
 .product-card {
       display: flex;
     flex-direction: column;
@@ -19,6 +17,8 @@
 }
 .info-title{
     font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin: 0;
 }
 
 .description {
@@ -28,14 +28,12 @@
   width: 90%;
 }
 
-/* Product image */
 .product-image {
   height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
 
-/* Content under the image */
 .product-info {
   display: flex;
   flex-direction: column;
