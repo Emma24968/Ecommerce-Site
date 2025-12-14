@@ -7,11 +7,6 @@
     margin-left: 50px;
 }
 
-/* .list-card{
-  margin: 10px;
-  padding-top: 10px;
-} */
-
 .main {
   flex: 1;
   padding: 20px;
@@ -21,4 +16,6 @@
 }
 .product-column {
   display: flex;
+  flex-direction: column;
+padding:  10px;
 }

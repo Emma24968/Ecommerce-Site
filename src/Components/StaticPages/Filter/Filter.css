@@ -9,6 +9,8 @@
     border: none;
     border-radius: 10px;
     padding: 10px;
+    height: 100vh;
+    font-size: 10px;
 }
 
 #clear-btn {
@@ -23,6 +25,6 @@ hr {
   border: none;
   height: 0.5px;
   background-color: #ccc;
-  margin: 20px 0;
-  width: 15rem;
+  margin: 10px 0;
+  width: 10rem;
 }

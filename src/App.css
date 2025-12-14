@@ -1,49 +1,56 @@
-/* RESET SCROLL */
+/* ===== RESET & BASE ===== */
 html,
 body {
   height: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: hidden; 
+  font-family: sans-serif;
 }
 
-
+/* ===== MAIN CONTAINER ===== */
 .main-cont {
-  flex: 1;
   display: flex;
-  height: calc(100vh - 60px); /* adjust if SearchBar height differs */
+  height: calc(100vh - 60px); /* subtract SearchBar height */
 }
 
+/* ===== SIDEBAR ===== */
 .sidebar {
   width: 10%;
-    background: #fff;
-    padding-left: 20px;
+  background: #fff;
+  padding-left: 20px;
 }
 
-/* MAIN AREA */
+/* ===== MAIN AREA ===== */
 .main {
-  /* flex: 1; */
   display: flex;
-  height: 100%;
-  background: #F5F5F5;
+  flex: 1;
+  /* height: 1%;       fill remaining space under header */
+  background: #f5f5f5;
+  /* overflow: hidden;   ensures sticky filter works */
 }
 
-/* FILTER (NOT SCROLLABLE) */
-.filter-bar {
+/* ===== FILTER (STICKY) ===== */
+.filter {
+  width: 260px;       /* fixed width */
   position: sticky;
   top: 0;
-  z-index: 10;
-  background: white;
+   /* bottom: 0; */
+   margin-bottom: 200px;
+  height: 100%;       /* fill parent container */
+  background: #fff;
   padding: 12px 16px;
-  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  overflow: hidden;   /* change to auto if filter content is long */
 }
 
-/* PRODUCTS (ONLY SCROLLABLE PART) */
+/* ===== PRODUCTS (SCROLLABLE) ===== */
 .products {
   flex: 1;
-  overflow-y: auto;
+  height: 100%;       /* fill parent container */
+  overflow-y: auto;   /* only products scroll */
   padding: 16px;
+  background: #f5f5f5;
 }
-.product-cont{
-      width: 80%;
-    margin-left: 50px;
-}
+
+/* ===== OPTIONAL PRODUCT CONTAINER ===== */
+

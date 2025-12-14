@@ -8,9 +8,8 @@ export const Product = ()=>{
             <Title />
             <div className="product-column">
                 <List />
-                {/* <List />
                 <List />
-                <List /> */}
+                <List />
             </div>
             
         </div>
