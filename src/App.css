@@ -13,19 +13,18 @@ body {
   height: calc(100vh - 60px); /* adjust if SearchBar height differs */
 }
 
-/* SIDEBAR */
 .sidebar {
-  width: 260px;
-  background: #f8f8f8;
-  overflow: hidden;
+  width: 10%;
+    background: #fff;
+    padding-left: 20px;
 }
 
 /* MAIN AREA */
 .main {
   /* flex: 1; */
   display: flex;
-  /* flex-direction: column; */
   height: 100%;
+  background: #F5F5F5;
 }
 
 /* FILTER (NOT SCROLLABLE) */
