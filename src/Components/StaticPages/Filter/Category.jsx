@@ -6,14 +6,12 @@ export const Category = () => {
       <div className="list-container">
         <div className="list">
           <button>All Items</button>
-          <button>On Sale</button>
-        </div>
-        <div className="list">
           <button>Featured</button>
-          <button>Best Seller</button>
+          <button>New Items</button>
         </div>
         <div className="list">
-          <button>New Items</button>
+          <button>On Sale</button>
+          <button>Best Seller</button>
           <button>On Sale</button>
         </div>
       </div>
