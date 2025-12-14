@@ -17,7 +17,8 @@
   height: 25px;
   border-radius: 5px;
   padding: 5px 5px ;
-  border: 1px solid blue;
+  border: 1px solid rgb(107, 107, 234);
+  color:rgb(107, 107, 234) ;
   background: none;
 }
 
