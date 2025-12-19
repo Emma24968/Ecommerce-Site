@@ -6,6 +6,8 @@ import { Star } from "lucide-react";
 
 export const PriceRange = () => {
   const [price, setPrice] = useState([0, 1000]);
+
+  
   return (
     <div className="range">
       <h3>Price Range</h3>
@@ -22,6 +24,8 @@ export const PriceRange = () => {
 <div className="range-label">
     <span>0</span>
         <span>1000</span>
+
+
 
 </div>
     </div>
