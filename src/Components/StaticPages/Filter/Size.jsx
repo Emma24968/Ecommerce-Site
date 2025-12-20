@@ -8,21 +8,13 @@ export const Size = () => {
       <h3>Size</h3>
       <div className="size-container">
         <div className="size">
-          <input type="radio" XS/>
-          <input type="radio" />
-          <input type="radio"  />
-          <div className="bg-blue-500 p-4">Tesmentt</div>
-          <Circle size={15}/>
-          <span className="size-item"></span>
-          <Circle size={15}/>
-          <span className="size-item">S</span>
-          <Circle size={15}/>
-          <span className="size-item">M</span>
+          <input type="radio" id="testing"/><label for="testing">XS</label>
+          <input type="radio" id="testing"/><label for="testing">X</label>
+          <input type="radio" id="testing"/><label for="testing">M</label>
         </div>
         <div className="size">
-          <CircleCheckBig size={15}/> <span className="size-item size-item1">L</span>
-          <Circle size={15}/>
-          <span className="size-item ">XL</span>
+                    <input type="radio" id="testing"/><label for="testing">XL</label>
+                    <input type="radio" id="testing"/><label for="testing">L</label>
         </div>
       </div>
     </div>
