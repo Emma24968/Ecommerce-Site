@@ -1,10 +1,12 @@
 import { Bell, CircleUserRound, MessageSquare, Search } from "lucide-react";
 import './SearchBar.css'
+import myLogo from '../Main/Assets/logo.png';
 export const SearchBar = (props) => {
   return (
     // I added a classname using the spread method
     <div className="searchbar-section"{...props}>
-      <h1>Logo</h1>
+      <div></div>
+      <img src={myLogo} width={'50px'} alt="" />
       <div className="search-box">
         <div className="search-container">
           <input type="text" placeholder="search something" />

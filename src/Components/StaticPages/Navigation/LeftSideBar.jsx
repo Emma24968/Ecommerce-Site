@@ -9,6 +9,11 @@ export const SideBar = (props) => {
       <p>
         <Codesandbox />
       </p>
+      <h1>jdshk</h1>
+      <h1 className="text-3xl font-bold text-blue-600">
+  Tailwind is working
+</h1>
+
       <p>
         <TrendingUp />
       </p>
